@@ -1,0 +1,17 @@
+
+
+[
+{
+  "key":"value",
+  "item":[
+  "item1", "item2"
+  ],
+  "anotherItem": [{
+  "key":"value"
+  },
+  {
+  "key","val","yeskey":"value"
+  }]
+
+}
+]
