@@ -1,0 +1,6 @@
+const [stateVal, SiteDataStateVal] = useState(''); //can be a variable, object, etc.
+//we are going to use this a lot
+useEffect(() =>{
+  //console.log('yes');
+  setStateVal('value') //created an endless loop 
+}, [])

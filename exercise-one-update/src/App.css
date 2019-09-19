@@ -9,14 +9,83 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
+  /* background-color: red; */
+  min-height: 90px;
   display: flex;
+  padding-left: 20px;
+  height:200px;
+  margin-bottom:50px;
+  flex-direction: row;
+  border-style: solid;
+  align-items: flex-start;
+  justify-content: left;
+  color: black;
+  width:80%;
+  margin-left: 10%;
+}
+
+.App-header img{
+  float:left;
+  margin-top: 0 auto;
+  width:200px;
+  height:180px;
+}
+
+.App-header span{
+  margin-left:10px;
+}
+
+.App-header p{
+  text-align: left;
+  margin-left:10px;
+  font-size: 19px;
+
+}
+.articleContent{
+  text-align: center;
+}
+.articleCard{
+  text-align: left;
+  margin-left: 150px;
+}
+
+.temp2{
+  margin-left:50px;
+}
+
+.box1{
+  align-self:center;
+}
+
+.box2{
+  align-self: center;
+}
+
+.myBox {
+  display: flex;
+  width: 80%;
+  text-align: left;
+  /* margin:0 auto; */
+  margin-top:-38px;
+  margin-left: 120px;
+  align-items: flex-start;
+  height: 200px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.myBox1{
+  width: 100%;
+  background-color: grey;
+  margin-top: 50px;
+}
+
+.myBox2{
+  margin-bottom: -190px;
+}
+
+#my_image{
+  float:left
 }
 
 .App-link {
@@ -30,4 +99,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.articlesPage{
+ text-align: left;
+ margin-left: 60px ;
+ margin-bottom: 20px;
+ border-style: ridge;
+
 }
