@@ -19,11 +19,11 @@ function Article(props){ //props is the object that the parent component is pass
       }
     }
   },[]);
-console.log('This is the current article',article)
+// console.log('This is the current article',article)
 
   return(
     <div className="article">
-      <div className="myBox">
+      <div className="myBox" style={{backgroundImage:`url('${article.image && article.image.url}')`}}>
         <div className="myBox1">
           <h1>{article.title}</h1>
           <p>{article.publishedDate}</p>

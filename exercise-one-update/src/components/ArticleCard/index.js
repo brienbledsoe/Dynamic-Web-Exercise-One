@@ -10,17 +10,17 @@ import React from 'react';
 
 
 function ArticleCard({articleContent}){
-  console.log('ArticleCard', articleContent);
+
   return(
     <div className="App-header">
     <div className="box1"><img src={articleContent.image.url} alt={articleContent.image.alt}/></div>
     <div className="box2">
-      <p>
+
       <p>{articleContent.title}</p>
       <p>{articleContent.publishedDate}</p>
       <p>{articleContent.blurb}</p>
-      <a href={`/article/${articleContent.id}`}><span style={{color : 'blue'}}>Read More</span></a>
-      </p>
+      <a className="my_Test"href={`/article/${articleContent.id}`}>Read More</a>
+
     </div>
 
     </div>

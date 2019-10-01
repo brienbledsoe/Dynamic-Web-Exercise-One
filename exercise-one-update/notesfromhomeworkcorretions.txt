@@ -1,0 +1,23 @@
+console.log('articleData',articleData); //added this line of code
+I removed the line above because I think this is what you mean for components that are meant for logging only?
+
+console.log('ArticleCard', articleContent); I removed this from the articleCard index.js file in the article card funtion above the
+return statement
+
+
+console.log('This is the current article',article) // commented out in line 22 in the home Article.Js file just in case
+
+console.log('This is the articleData', articleData[i]); //commented out in line 14 in home Article.js file just in className
+
+for some reason I can't adjust the span tag in my ArticleCard index.js file
+
+2. Invalid HTML to wrap a <p> tag with another <p> tag:
+https://github.com/brienbledsoe/Dynamic-Web-Exercise-One/blob/f7f61ce45c0b8a23b14048302ffee7543fbe0fc1/exercise-one-update/src/components/ArticleCard/index.js#L18
+
+3. You included both containers inside of the Home folder. You will want to give each of these their own folders inside of containers
+or at least make sure the folder structure is consistent (/Home/index.js and Article/index.js)
+
+4. You're not bringing in the article image here for the header https://github.com/brienbledsoe/Dynamic-Web-Exercise-One/blob/f7f61ce45c0b8a23b14048302ffee7543fbe0fc1/exercise-one-update/src/containers/Home/Article.js#L26
+
+
+// <img src={article.image.url} alt={article.image.alt}/>//not working in article.js file

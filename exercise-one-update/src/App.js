@@ -1,13 +1,10 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import articleData from './components/SiteData/articleData';
 import Home from './containers/Home'
-import Article from './containers/Home/Article';
+import Article from './containers/Article';
 
 function App() {
-  console.log('articleData',articleData); //added this line of code
   return (
     <div className="App">
     <Router>

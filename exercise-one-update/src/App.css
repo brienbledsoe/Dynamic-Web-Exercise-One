@@ -32,8 +32,11 @@
   height:180px;
 }
 
-.App-header span{
-  margin-left:10px;
+a.my_Test{
+  margin-left: -540px;
+  margin-top:-20px; 
+  text-align: left;
+
 }
 
 .App-header p{
@@ -41,6 +44,12 @@
   margin-left:10px;
   font-size: 19px;
 
+}
+
+span.my-test{
+  text-align: left;
+  margin-left: -50px;
+  font-size: 19px;
 }
 .articleContent{
   text-align: center;
